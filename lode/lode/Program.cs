@@ -19,6 +19,7 @@ namespace lode
             int[,] morePole = new int[11, 11];
             int i = 0;
             int x = 0;
+            int ctrLod = 0;
 
 
 
@@ -30,7 +31,10 @@ namespace lode
                 }
             }
 
-
+            while(ctrLod<4)
+            {
+                ctrLod = ctrLod + 1;
+            }
 
 
             morePole[5, 5] = (int)Akce.Lod;
